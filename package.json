@@ -1,0 +1,17 @@
+{
+  "name": "chaolai-stake-service-egg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cetrinw",
+  "license": "MIT",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "dependencies": {
+    "egg": "^2.25.0",
+    "egg-mysql": "^3.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0"
+  }
+}
