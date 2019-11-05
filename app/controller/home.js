@@ -1,6 +1,6 @@
-const Controller = require('egg').Controller;
+const BaseController = require('../core/base_controller');
 
-class HomeController extends Controller {
+class HomeController extends BaseController {
     async index() {
         this.ctx.body = 'Hello world';
     }
